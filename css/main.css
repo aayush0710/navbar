@@ -1,0 +1,57 @@
+
+li a:hover {
+    background-color: #111;
+    border: solid;
+    transition: 0.5s ease;
+    font-size: 150%;
+    font-family: monospace;
+}
+button:hover {
+    padding: 50px;
+    width: 50px;
+    color: red;
+    transition:0.5s color;
+}
+button:active {
+     padding: 50px;
+    width: 50px;
+    color: red;
+    transition:0.5s color;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+    }
+    ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: absolute;
+}
+
+ul li {
+    float: left;
+    text-align: center;
+}
+@media screen and (max-width: 400px){
+    #ul{
+        background-color: yellow;
+    }
+}
+@media screen and (min-width: 700px){
+    #ul{
+        background-color: green;
+    }
+}
+@media screen and (max-width: 500px){
+    p{
+        background-color: red;
+        font-size: 2em;
+        text-align: center;
+    }
+}
